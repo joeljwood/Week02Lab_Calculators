@@ -10,15 +10,18 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>AgeCalculator</servlet-name>
-        <url-pattern>/AC</url-pattern>
+        <url-pattern>/age</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
         <servlet-name>ArithmeticCalculator</servlet-name>
-        <url-pattern>/ArithmeticCalc</url-pattern>
+        <url-pattern>/arithmetic</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
             30
         </session-timeout>
     </session-config>
+    <welcome-file-list>
+        <welcome-file>age</welcome-file>
+    </welcome-file-list>
 </web-app>
