@@ -21,13 +21,10 @@
             <label>Second:</label>
             <input type="number" name="second_value" value="${secondValue}">
             <br>
-            <input type="submit" name="addition" value="+"
-            <br>
-            <input type="submit" name="subtraction" value="-"
-            <br>
-            <input type="submit" name="multiplication" value="*"
-             <br>
-            <input type="submit" name="modulus" value="%"
+            <input type="submit" name="addition" value="+">
+            <input type="submit" name="subtraction" value="-">
+            <input type="submit" name="multiplication" value="*">
+             <input type="submit" name="modulus" value="%">
         </form>
             <br>
         
